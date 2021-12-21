@@ -1,3 +1,109 @@
 html {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0 0;
+}
+
+/* Header */
+
+header {
     
+    
+}
+
+
+
+.row {
+    width: 1920px;
+    height: 40px;
+    background-color: salmon;
+
+    
+    
+}
+
+.col_1 {
+    max-width: calc(100% / 12);
+    height: 35px;
+    display: inline-block;
+    
+}
+
+#logo {
+    margin: 5px;
+}
+
+
+.col_3 {
+    width: calc(100% / 4);
+    display: inline-block;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav_floated li {
+    float: left;
+    
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Nav */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* debug */
+
+.debug header nav.row {
+    border: 2x dashed red;
 }
